@@ -36,7 +36,7 @@ export function Books({ books }) {
               {isBookInReadingList ? <BookAddedIcon /> : <AddBookIcon />}
             </button>
             <img
-              className="h-56 sm:h-64 aspect-auto mb-5"
+              className="h-56 sm:h-64 aspect-auto mb-5 rounded-md"
               src={book.cover}
               alt={`Portada de ${book.title}`}
             />
